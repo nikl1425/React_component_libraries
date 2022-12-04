@@ -1,0 +1,55 @@
+{
+  "name": "nhr-basic-lib",
+  "version": "1.0.0",
+  "description": "Simple components for my website",
+  "main": "./dist/index.js",
+  "module": "./dist/index.es.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "build": "rollup -c"
+  },
+  "author": "Niklas Hjort",
+  "license": "ISC",
+  "dependencies": {
+    
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.2.4"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.2.4",
+    "@babel/core": "^7.20.5",
+    "@babel/preset-react": "^7.18.6",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^23.0.3",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^10.0.1",
+    "@storybook/addon-actions": "^6.5.14",
+    "@storybook/addon-essentials": "^6.5.14",
+    "@storybook/addon-interactions": "^6.5.14",
+    "@storybook/addon-links": "^6.5.14",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/builder-webpack4": "^6.5.14",
+    "@storybook/manager-webpack4": "^6.5.14",
+    "@storybook/react": "^6.5.14",
+    "@storybook/testing-library": "^0.0.13",
+    "@types/node": "^18.11.10",
+    "@types/react": "^18.0.26",
+    "autoprefixer": "^10.4.13",
+    "babel-loader": "^8.3.0",
+    "postcss": "^8.4.19",
+    "rollup": "^3.5.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-scss": "^4.0.0",
+    "rollup-plugin-tailwind": "^1.0.0",
+    "rollup-plugin-tailwindcss": "^1.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^4.9.3"
+  }
+}
