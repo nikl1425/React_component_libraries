@@ -12,20 +12,15 @@
   },
   "author": "Niklas Hjort",
   "license": "ISC",
-  "dependencies": {
-    
-  },
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tailwindcss": "^3.2.4"
   },
   "devDependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "tailwindcss": "^3.2.4",
     "@babel/core": "^7.20.5",
     "@babel/preset-react": "^7.18.6",
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@rollup/plugin-babel": "^6.0.3",
     "@rollup/plugin-commonjs": "^23.0.3",
     "@rollup/plugin-node-resolve": "^15.0.1",
@@ -44,12 +39,15 @@
     "autoprefixer": "^10.4.13",
     "babel-loader": "^8.3.0",
     "postcss": "^8.4.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rollup": "^3.5.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-scss": "^4.0.0",
     "rollup-plugin-tailwind": "^1.0.0",
     "rollup-plugin-tailwindcss": "^1.0.0",
     "rollup-plugin-terser": "^7.0.2",
+    "tailwindcss": "^3.2.4",
     "typescript": "^4.9.3"
   }
 }

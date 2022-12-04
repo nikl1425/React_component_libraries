@@ -1,0 +1,10 @@
+Basic component library for quickly building colorful apps in react / next js
+
+Utilizes following dependencies that needs to be installed:
+
+- Tailwindcss
+- React
+- React-dom
+- FontAwesome
+
+Maybe i will add redux to the components...
